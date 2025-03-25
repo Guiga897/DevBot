@@ -1,0 +1,46 @@
+version: "3.1"
+
+nlu:
+- intent: saudacao
+  examples: |
+    - oi
+    - olá
+    - e ai?
+    - tudo bem?
+    - com vai?
+    - bom dia!
+    - boa tarde
+    - boa noite
+    - blz
+
+- intent: despedida
+  examples: |
+    - valeu
+    - ate mais
+    - inte
+    - inte+
+    - tchau
+    - adem
+    - te vejo por aí
+
+- intent: pergunta_clima
+  examples: |
+    - Como está o tempo
+    - Pode me falar sobre o tempo
+    - Me dê a previsão do tempo
+    - Como será o clima hoje
+    - como será o tempo hoje
+
+- intent: informa_localizacao
+  examples: |
+    - [London](city)
+    - [Berlin](city)
+    - [Chicago](city)
+    - [Boston](city)
+
+- intent: desafia_bot
+  examples: |
+    - O que é você
+    - Quem você pensa que é
+    - Você parece doido
+    - Você parece estranho
