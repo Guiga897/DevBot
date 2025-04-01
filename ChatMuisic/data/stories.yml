@@ -1,0 +1,33 @@
+version: "3.1"
+
+stories:
+- story: fluxo_saudacao
+  steps:
+  - intent: saudacao
+  - action: utter_bemvindo
+
+- story: fluxo_problema_acesso
+  steps:
+  - intent: problema_acesso
+  - action: action_fornecer_suporte
+
+- story: fluxo_problema_plano
+  steps:
+  - intent: problema_plano
+  - action: action_fornecer_suporte
+
+- story: fluxo_problema_tecnico
+  steps:
+  - intent: problema_tecnico
+  - action: action_fornecer_suporte
+
+- story: fluxo_despedida
+  steps:
+  - intent: despedida
+  - action: utter_adeus
+  - action: action_restart
+
+- story: fluxo_fallback
+  steps:
+  - intent: problema_nao_identificado
+  - action: utter_encaminhar_humano

@@ -1,0 +1,19 @@
+{
+  "lookup": {
+    "eJyLrq6NBQAEOAGx": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohJbW4IDUlMyWxtjYWAFsRHRE=": "utter_adeus",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohJbW4IDUlMyWxloA5pSUlqUXxiSmppcV4TYkFAPUVN6o=": "action_restart",
+    "eJyljEEKgDAMBL+SB/iCfkWkBLuHgsaSpF5K/25Bz3rwNgPDzK1P1IrijLx6PiRQuyEK7wj0yJbNIaOtBh1NlqEeKMEKUk7cPz7VHRo5odqPyyMKc1Z/HS0X0QNTgA==": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhoCg/KSc1NzG+JDU5LzM5v7Y2FgAyoSAE": "action_fornecer_suporte",
+    "eJyFjl0KhDAMhK/SA3iCXkUk1DJCoSYljb4U725k92VhwbcZ+OZnHtcURlOclLIV4RjGRxCnHTF8TS3dwM4eHepMYbcWQ1NZK/ZEhswly/XUPZkTVEWaoz89mygjQ6kfTdTg+Pv4n9DrjeUG10JUXQ==": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhoCg/KSc1NxGoO7W4OL+2NhYAEnofnQ==": "action_fornecer_suporte",
+    "eJyNjMEJwCAQBFuxgFRgKyGIkQ0Ieid3mo/Yew6SAvLbgdnZ59rcbII7xNQzk3fzHYFihXcflKwdZO5QiDmZDLt3TfgsqNHeUOX1r3axEBIk6GgsHT+6xwPKqEG/": "action_listen",
+    "eJytjsEJgDAQBFtJAVaQVkRCjCsE4l24i36CvXugf33424HdYcd+Dq5XwRFiapnJu36HQHGDdw+UrA1k3V0h1slk2LyrwnPBFm0NVT6/2VYWQoIE3StLw1/e15cUOQiUy5EXk04XB7hioQ==": "utter_encaminhar_humano",
+    "eJytjsEJAzEMBFtxAanArYRgFGfDGWzJSPJ9zPUeQ/K/e+S3A7vD3udxC7Mr9kTZi3AM8xsSU0MMP6jFHLy6w6CrU3ihx9BVnhWN1hpmclyzvUUZGZpsdFHHv7ynL5kkKUzqXl6n0uG+LoIztcIbadpGI5br+scHdcqHpw==": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhOLE0JTE5Mb+2NhYAPkUcrw==": "utter_bemvindo",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhOLE0JTE5Mb+WgDGlJSWpRfFJqbllmXkp+fjMiQUAMa84KA==": "action_listen",
+    "eJyFjkEKgDAMBL/SB/iCfkWkVFmhUJOSVC/FvxvRiyD0loWZ3YztHFwrgiPEpSYm79pzBIobvHtDTlpBxu4KMSaRxepdEZ4ztmg2VPm8227lQMjMxchPzcpCWCBB98JSYXh/+0fqfTFdLLFTjw==": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhoCg/KSc1NzG+ICcxL7+2NhYA804fOQ==": "action_fornecer_suporte",
+    "eJyFjksKwzAMRK/iA+QEvkoJwg0TMDiSkB1vjO8ehXZTKGQ3A28+rzGXMNTQKW0tC8cwPoI4HYjha0quDezsWWHOZHbbYlCTd8GRSEtimXfZneigIqIO/rTsYowNRvVUsQbHn6f/hB5OrBeGglLH": "action_listen"
+  }
+}

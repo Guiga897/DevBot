@@ -1,0 +1,62 @@
+version: "3.1"
+
+intents:
+  - saudacao
+  - despedida
+  - problema_acesso
+  - problema_plano
+  - problema_tecnico
+  - problema_nao_identificado
+
+entities:
+  - problema
+
+slots:
+  problema:
+    type: categorical
+    influence_conversation: true
+    mappings:
+    - type: from_entity
+      entity: problema
+
+responses:
+  utter_bemvindo:
+    - text: "Bem-vindo ao suporte da Som na Nuvem! Como posso ajudar?"
+
+  utter_adeus:
+    - text: "Espero ter ajudado! Para mais informações, visite nosso site."
+
+  utter_solucao_acesso:
+    - text: |
+        Solução para problemas de acesso:
+        1. Acesse [Redefinir Senha](https://help.somnanuvem.com/acesso)
+        2. Verifique seu e-mail
+        3. Siga as instruções
+        Precisa de mais ajuda?
+
+  utter_solucao_plano:
+    - text: |
+        Alteração de plano:
+        1. Acesse [Gerenciar Assinatura](https://painel.somnanuvem.com/planos)
+        2. Selecione novo plano
+        3. Confirme alteração
+        [Comparar Planos](https://somnanuvem.com/planos)
+
+  utter_solucao_tecnico:
+    - text: |
+        Soluções técnicas:
+        1. Reinicie o aplicativo
+        2. Atualize para versão 2.4.1
+        3. [Guia de Troubleshooting](https://help.somnanuvem.com/tec)
+        Resolvido?
+
+  utter_encaminhar_humano:
+    - text: "Transferindo para atendente especializado. Aguarde..."
+
+actions:
+  - action_fornecer_suporte
+  - action_restart
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

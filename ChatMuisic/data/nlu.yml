@@ -1,0 +1,53 @@
+version: "3.1"
+
+nlu:
+- intent: saudacao
+  examples: |
+    - Oi
+    - Olá
+    - Bom dia
+    - Boa tarde
+    - Iniciar atendimento
+
+- intent: despedida
+  examples: |
+    - Adeus
+    - Tchau
+    - Até logo
+    - Encerrar chat
+    - Sair
+
+- intent: problema_acesso
+  examples: |
+    - Não consigo fazer login
+    - Minha senha não funciona
+    - Acesso negado
+    - Estou bloqueado fora da conta
+    - Problema de autenticação
+
+- intent: problema_plano
+  examples: |
+    - Quero mudar de plano
+    - Como atualizo minha assinatura?
+    - Cancelar plano atual
+    - Dúvidas sobre planos
+    - Quero ver opções de planos
+
+- intent: problema_tecnico
+  examples: |
+    - O aplicativo está travando
+    - Músicas não carregam
+    - Erro ao reproduzir
+    - Problema de conexão
+    - O player não funciona
+
+- lookup: problema
+  examples: |
+    acesso
+    login
+    conta
+    plano
+    assinatura
+    técnico
+    erro
+    bug
