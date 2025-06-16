@@ -1,0 +1,17 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - oi
+    - olá
+    - bom dia
+- intent: goodbye
+  examples: |
+    - tchau
+    - adeus
+    - até logo
+- intent: inform_name
+  examples: |
+    - Meu nome é [João](person_name).
+    - Eu me chamo [Maria](person_name).

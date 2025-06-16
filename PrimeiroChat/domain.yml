@@ -1,0 +1,17 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - inform_name
+
+entities:
+  - person_name
+
+responses:
+  utter_greet:
+    - "Olá! Como posso ajudar?"
+  utter_goodbye:
+    - "Tchau! Até a próxima."
+  utter_ask_name:
+    - "Qual o seu nome?"
